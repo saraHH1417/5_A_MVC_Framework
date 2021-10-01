@@ -1,0 +1,15 @@
+{
+    "name": "sh2th/5_mvc_framework_the_codeholic_channel",
+    "authors": [
+        {
+            "name": "sara1417",
+            "email": "sara.afzar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\" : "./"
+        }
+    },
+    "require": {}
+}
