@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\core\Model;
+use sarahh1417\phpmvc\Model;
 
 class contactForm extends Model
 {

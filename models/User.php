@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\DbModel;
-use app\core\UserModel;
+use sarahh1417\phpmvc\DbModel;
+use sarahh1417\phpmvc\UserModel;
 
 class User extends UserModel
 {

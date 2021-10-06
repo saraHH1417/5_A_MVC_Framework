@@ -3,7 +3,7 @@
 class m0001_initial {
     public function up()
     {
-        $db = app\core\Application::$app->db;
+        $db = sarahh1417\phpmvc\Application::$app->db;
         $query ="CREATE TABLE IF NOT EXISTS USERS 
                  (id INT AUTO_INCREMENT PRIMARY KEY,
                  email varchar(255)  NOT NULL,
@@ -17,7 +17,7 @@ class m0001_initial {
 
     public function down()
     {
-        $db = app\core\Application::$app->db;
+        $db = sarahh1417\phpmvc\Application::$app->db;
         $query = "DROP TABLE USERS";
         $db->pdo->exec($query);
     }

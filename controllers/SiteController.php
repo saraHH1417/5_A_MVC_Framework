@@ -1,10 +1,10 @@
 <?php
 
 namespace app\controllers;
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
+use sarahh1417\phpmvc\Application;
+use sarahh1417\phpmvc\Controller;
+use sarahh1417\phpmvc\Request;
+use sarahh1417\phpmvc\Response;
 use app\models\contactForm;
 
 

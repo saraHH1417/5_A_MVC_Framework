@@ -1,12 +1,12 @@
 <?php
 /* @var $model \app\models\User */
-/** @var $form \app\core\Form\Form */
-/** @var  $this \app\core\View */
+/** @var $form \sarahh1417\phpmvc\Form\Form */
+/** @var  $this \sarahh1417\phpmvc\View */
 $this->title = 'Register';
 ?>
 
 <h1> Create an account</h1>
-    <?php $form = \app\core\Form\Form::begin('' , 'post') ?>
+    <?php $form = \sarahh1417\phpmvc\Form\Form::begin('' , 'post') ?>
         <div class="row">
             <div class="col">
                 <?php echo $form->field($model, 'firstName') ?>
@@ -20,7 +20,7 @@ $this->title = 'Register';
         <?php echo $form->field($model, 'passwordConfirm')->passwordField() ?>
 
         <button type="submit" class="btn btn-primary">Submit</button>
-    <?php \app\core\Form\Form::end() ?>
+    <?php \sarahh1417\phpmvc\Form\Form::end() ?>
 <!--<form  action="" method="post">-->
 <!--    <div class="row">-->
 <!--        <div class="col">-->
