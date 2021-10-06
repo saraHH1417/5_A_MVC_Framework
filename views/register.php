@@ -1,5 +1,8 @@
 <?php
 /* @var $model \app\models\User */
+/** @var $form \app\core\Form\Form */
+/** @var  $this \app\core\View */
+$this->title = 'Register';
 ?>
 
 <h1> Create an account</h1>

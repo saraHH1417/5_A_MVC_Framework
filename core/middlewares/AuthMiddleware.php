@@ -22,6 +22,8 @@ class AuthMiddleware extends BaseMiddleware
     {
         if(Application::isGuest()) {
             if(empty($this->actions) || in_array(Application::$app->controller->action , $this->actions)){
+                /* actions array includes the pages which we want to protect with auth middleware , if it is empty,
+                it means all pages should be protected with this class */
                 throw new ForbiddenException();
             }
         }
